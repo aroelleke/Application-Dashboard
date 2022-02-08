@@ -1,0 +1,15 @@
+.page-title {
+  text-align: center;
+  font-size: 30pt;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.column-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  flex-wrap: wrap;
+  width: 100%;
+}

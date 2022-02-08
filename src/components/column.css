@@ -1,0 +1,19 @@
+.column-box {
+    background-color: rgba(146, 146, 146, 0.5);
+    border-radius: 10px;
+    box-shadow: 1px 5px 13px rgba(0, 0, 0, .2);
+    padding: 15px 25px;
+    min-height: 150px;
+}
+
+.title {
+    font-size: 24pt;
+    padding-bottom: 25px; 
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
